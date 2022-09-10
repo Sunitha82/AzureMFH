@@ -26,6 +26,30 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+   <repositories>
+    <repository>
+      <id>Project-app</id>
+      <url>https://pkgs.dev.azure.com/sunikans0775/MFHPPROJ/_packaging/Project-app/maven/v1</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>  
+  <distributionManagement>
+    <repository>
+      <id>Project-app</id>
+      <url>https://pkgs.dev.azure.com/sunikans0775/MFHPPROJ/_packaging/Project-app/maven/v1</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </distributionManagement>
   
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
